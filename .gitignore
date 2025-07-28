@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+# Add 'bin/' for some virtual env setups
+bin/
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.bak
+*.swo
+
+# Streamlit specific
+.streamlit/local/
+
+# Environment variables
+.env
+
+# Database file
+sql_app.db
+
+# Any specific logs or temporary files you might generate
+*.log
+*.tmp
+.DS_Store # macOS specific
