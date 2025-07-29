@@ -102,14 +102,14 @@ This opens the To-Do List application in your browser.
 
 ## 📂 Project Structure
 your-repo-name/
-├── app.py # Main Streamlit application file
-├── .streamlit
-    └──config.toml
-├── .env # Environment variables (e.g., API keys) - IGNORED BY GIT
-├── sql_app.db # SQLite database file - IGNORED BY GIT
-├── requirements.txt # Python dependencies
-├── .gitignore # Specifies files/directories ignored by Git
-└── README.md # This file
+├── app.py              # Main Streamlit application file
+├── .env                # Environment variables (e.g., API keys) - IGNORED BY GIT
+├── sql_app.db          # SQLite database file - IGNORED BY GIT
+├── requirements.txt    # Python dependencies
+├── .gitignore          # Specifies files/directories ignored by Git
+├── .streamlit/         # Streamlit configuration directory
+│   └── config.toml     # Streamlit configuration file (e.g., for theme, port)
+└── README.md           # This file
 
 
 ---
